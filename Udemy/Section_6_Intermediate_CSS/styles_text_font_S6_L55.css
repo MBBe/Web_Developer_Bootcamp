@@ -1,0 +1,45 @@
+/*font-family*/
+
+p {
+	font-family: Century Gothic;
+}
+
+h1 {
+	font-family: Georgia;
+}
+
+/*font-size. am em will change the size inside 
+of a span tag to bigger or smaller than the size 
+of the parent tag. In this case the parent tag is 
+<p> and at the moment has a default size, when the 
+span tag is assigned 2.0 em it will alwasy be 2 sizes 
+bigger than the <p> even if the <p> tag is given a smaller or bigger size 
+ The default size of em is around 16px (it varies from browser to browser)*/
+
+ body {
+ 	font-size: 10px;
+ }
+
+h1 {
+	font-size: 5.0em;
+}
+
+p {
+	font-size: 2.0em;
+}
+
+span {
+	font-size: 2.0em;
+}
+
+/*font-weight*/
+
+p{
+	font-weight: bold
+}
+
+/*line-height*/
+
+/*text-align*/
+
+/*text-decortion*/
