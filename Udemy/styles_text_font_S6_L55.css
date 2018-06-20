@@ -1,11 +1,11 @@
 /*font-family*/
 
 p {
-	font-family: Century Gothic;
+	font-family: Raleway;
 }
 
 h1 {
-	font-family: Georgia;
+	font-family: Indie Flower;
 }
 
 /*font-size. am em will change the size inside 
@@ -35,11 +35,31 @@ span {
 /*font-weight*/
 
 p{
-	font-weight: bold
+	font-weight: normal;
 }
 
 /*line-height*/
 
+p {
+	line-height: 1.5;
+}
+
 /*text-align*/
 
+h1 {
+	text-align: right;
+}
+
+p {
+	text-align: center;
+}
+
 /*text-decortion*/
+
+p {
+	text-decoration: underline;
+}
+
+h1 {
+	text-decoration: line-through;
+}
